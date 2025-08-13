@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* --------------------------- Header ------------------------------ */
+header{
+    background-color: rgb(52, 116, 136);
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2rem 2rem;
+}
+.header-right{
+    font-size: 20px;
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover{
+    color: rgb(237, 222, 222);
+}
+
+/* -------------------------------- Hero Section -------------------- */
+#hero{
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+    height: 100vh;
+}.hero-right{
+    padding: 2rem 2rem;
+}
+.hero-heading{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.hero-heading span{
+    color: rgb(163, 208, 222);
+}
+.hero-right p{
+    font-size: 1.5rem;
+}
+.hero-left img {
+  width: 60%;
+  max-width: 500px; 
+  height: auto; 
+  border-radius: 50%; 
+  object-fit: cover;
+  /* text-align: center; */
+}
+#about{
+    background-color: rgb(40, 36, 36);
+    padding: 50px 10px;
+}
+#about h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#about h1 span{
+    color: rgb(163, 208, 222);
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.about-content img {
+  width: 25%;
+  height: auto; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.about-content p{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+#projects{
+    background-color: rgb(33, 31, 31);
+    display: flex;
+}
