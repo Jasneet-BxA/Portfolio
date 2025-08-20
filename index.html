@@ -11,81 +11,155 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="header-right">Portfolio</div>
-        <nav class="header-left">
+        <div class="header-left">My Portfolio</div>
+        <div class="menu-toggle header-right" id="menu-toggle">&#9776;</div>
+        <nav id="nav-menu">
             <ul>
-                <li class="header-icon"><a href="">Home</a></li>
-                <li class="header-icon"><a href="">About</a></li>
-                <li class="header-icon"><a href="">Projects</a></li>
-                <li class="header-icon"><a href="">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- Hero -->
     <section id="hero">
-        <div class="hero-right">
-            <h1 class="hero-heading">Hi, <span>I'm Jasneet</span></h1>
-            <p>I'm a Frontend Developer | Web Designer | Problem Solver </p>
-        </div>
         <div class="hero-left">
-            <img src="blank-profile-picture-973460_1280.png" alt="Hero-image">
-             <!-- <img src="" alt="hero-image"> -->
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHkAnqhChbfLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724942646029?e=2147483647&v=beta&t=6JDC6Yc72FGoKgqsm0raui-ims1juR-Fsytm9sSFC7o"
+                alt="Profile Picture">
         </div>
+        <div class="hero-right">
+            <h1 class="hero-heading">Hi, I'm<span> Jasneet</span></h1>
+            <p>I'm a Frontend Developer | Web Designer | Problem Solver </p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img
+                        src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt=""></a>
+                <a href="https://www.instagram.com/"><img
+                        src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" alt=""></a>
+                <a href="https://www.linkedin.com/"><img
+                        src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt=""></a>
+                <a href="https://www.github.com/"><img
+                        src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt=""></a>
+            </div>
+            <button class="hero-btn">View My Work</button>
+        </div>
+
     </section>
     <!-- About Me -->
     <section id="about">
         <h1>About <span>Me</span></h1>
         <div class="about-content">
-            <img src="blank-profile-picture-973460_1280.png" alt="about-image">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHkAnqhChbfLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724942646029?e=2147483647&v=beta&t=6JDC6Yc72FGoKgqsm0raui-ims1juR-Fsytm9sSFC7o"
+                alt="about-image">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti qui repellendus ab cumque excepturi,
                 iusto corporis temporibus perspiciatis, laudantium culpa atque eaque possimus incidunt similique commodi
                 sequi numquam aliquid sit!</p>
         </div>
     </section>
-    <!-- skills -->
+    <!-- Skills -->
+    <!-- Skills -->
     <section id="skills">
-        <div class="skill">Python</div>
-        <div class="skill">Java</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Problem Solver</div>
+        <h1>My <span>Skills</span></h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h2>Frontend</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h2>Backend</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h2>Tools & Other</h2>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Figma</li>
+                    <li>VS Code</li>
+                    <li>REST APIs</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
     <!-- Projects -->
     <section id="projects">
-        <h1>projects</h1>
-        <div>
-        <div class="profile-card">
-        <img src="https://placehold.co/300x200" alt="image">
-        <div class="content">Weather Forecast App</div>
-        <button class="btn">More</button>
-    </div>
-    <div class="profile-card">
-        <img src="https://placehold.co/300x200" alt="image">
-        <div class="content">Plant Health Detector</div>
-        <button class="btn">More</button>
-    </div>
-    <div class="profile-card">
-        <img src="https://placehold.co/300x200" alt="image">
-        <div class="content">TO-DO App</div>
-        <button class="btn">More</button>
-    </div>
-    <div class="profile-card">
-        <img src="https://placehold.co/300x200" alt="image">
-        <div class="content">Movie Recommendation</div>
-        <button class="btn">More</button>
-    </div>
-    <div class="profile-card">
-        <img src="https://placehold.co/300x200" alt="image">
-        <div class="content">E-commerce Website</div>
-        <button class="btn">More</button>
-    </div>
-    </div>
+        <h1>Projects</h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/weather-api.jpg" alt="Weather App">
+                <div class="overlay">
+                    <h3>Weather Forecast App</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/houseplant.jpg" alt="GreenEye">
+                <div class="overlay">
+                    <h3>GreenEye</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/movie.jpg" alt="GreenEye">
+                <div class="overlay">
+                    <h3>Movie Recommendation</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/MusicPlayer.jpg" alt="GreenEye">
+                <div class="overlay">
+                    <h3>Music Player</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/BookStore.jpg" alt="GreenEye">
+                <div class="overlay">
+                    <h3>BookStore</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/Games.jpg" alt="GreenEye">
+                <div class="overlay">
+                    <h3>Games</h3>
+                    <button onclick="location.href='#'">Know More →</button>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- footer -->
     <footer>
-
+        <div id="contact">
+            <h1>Contact <span>Me</span></h1>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="first_name" placeholder="First Name" id="firstName" required>
+                    <input type="text" name="last_name" placeholder="Last Name" id="lastName" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" id="email" required>
+                    <input type="tel" placeholder="Mobile Number" required>
+                </div>
+                <textarea placeholder="Your Message" rows="5" id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
